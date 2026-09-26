@@ -1,0 +1,641 @@
+{
+ "meta": {
+  "generated_at": "2026-09-26T19:44:14",
+  "source_file": "mlspin_weston_export_2026-09-26.csv",
+  "asof": "2026-09-26",
+  "data_through": "2026-09-22",
+  "data_from": "2023-01-03",
+  "updated": "September 2026",
+  "range_label": "Jan 2023 \u2013 Sep 2026",
+  "period_long": "January 2023 through September 2026",
+  "years": [
+   "2023",
+   "2024",
+   "2025",
+   "2026"
+  ],
+  "year_labels": {
+   "2023": "2023",
+   "2024": "2024",
+   "2025": "2025",
+   "2026": "2026 YTD"
+  },
+  "full_years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "current_year": "2026",
+  "chart_years": [
+   "2023",
+   "2024",
+   "2025",
+   "2026"
+  ],
+  "rows_used": 438,
+  "rows_dropped": {},
+  "columns_used": {
+   "mls": "LIST_NO",
+   "address": "ADDRESS",
+   "street_num": "STREET_NUM",
+   "street_name": "STREET_NAME",
+   "sale": "SALE_PRICE",
+   "list": "LIST_PRICE",
+   "orig": "ORIG_PRICE",
+   "list_date": "LIST_DATE",
+   "offer_date": "OFFER_DATE",
+   "settled": "SETTLED_DATE",
+   "sqft": "SQUARE_FEET",
+   "nbhd": "NEIGHBORHOOD",
+   "area": "AREA",
+   "prop_type": "PROP_TYPE",
+   "status": "STATUS",
+   "town": "TOWN"
+  },
+  "methodology": {
+   "year_basis": "SETTLED_DATE",
+   "list_to_sale": "mean(SALE_PRICE/LIST_PRICE), ratios outside 0.70-1.30 excluded",
+   "at_above_ask": "SALE_PRICE >= LIST_PRICE",
+   "days_to_offer": "median(OFFER_DATE - LIST_DATE)",
+   "list_to_close": "median(SETTLED_DATE - LIST_DATE)",
+   "trend_2018_2022": "fixed historical values"
+  },
+  "town": "Weston",
+  "segment_note": "NEIGHBORHOOD/AREA text present on 50 of 438 sales (11%): too sparse for a neighborhood chart; replaced with sales by home-size band."
+ },
+ "headline": {
+  "closed_sales": 438,
+  "total_volume": 1285550319.0,
+  "overall_median": 2410000.0,
+  "median_change_pct": 17.0,
+  "median_change_years": [
+   2025,
+   2023
+  ],
+  "median_days_to_offer": 20.5,
+  "avg_list_to_sale": 98.61,
+  "display": {
+   "closed_sales": "438",
+   "total_volume": "$1.29B",
+   "overall_median": "$2.41M",
+   "median_change": "+17.0% vs. 2023",
+   "median_change_note": "2025 median vs. 2023",
+   "median_days_to_offer": "20 Days",
+   "avg_list_to_sale": "98.6%",
+   "list_to_sale_note": "Avg sale vs. final ask"
+  }
+ },
+ "hero": {
+  "description": "438 closed single-family transactions, January 2023 through September 2026. Every sale, every price band, every home size \u2014 MLS settled data.",
+  "meta_description": "438 closed sales, $1.29B volume, $2.41M median price. Weston MA real estate data hub updated September 2026. By Adler Connolly\u00b2, MGS Group Real Estate."
+ },
+ "byYr": {
+  "all": {
+   "label": "All Years",
+   "note": "Jan 2023 \u2013 Sep 2026",
+   "count": 438,
+   "volume": 1285550319.0,
+   "median": 2410000.0,
+   "avg_list_to_sale": 98.61,
+   "median_days_to_offer": 20.5,
+   "median_list_to_close": 86.0,
+   "mean_list_to_close": 120.1,
+   "pct_at_above_ask": 37.4,
+   "largest": {
+    "price": 25825000.0,
+    "address": "9 Atlas Lane",
+    "month": "May 2026"
+   },
+   "display": {
+    "count": "438",
+    "volume": "$1.29B",
+    "median": "$2.41M",
+    "avg_list_to_sale": "98.6%",
+    "median_days_to_offer": "20 Days",
+    "pct_at_above_ask": "37.4%",
+    "median_list_to_close": "86 Days",
+    "largest": "$25.82M"
+   }
+  },
+  "2023": {
+   "label": "2023",
+   "note": "Full year 2023",
+   "count": 128,
+   "volume": 363959526.0,
+   "median": 2222500.0,
+   "avg_list_to_sale": 100.59,
+   "median_days_to_offer": 13.0,
+   "median_list_to_close": 84.5,
+   "mean_list_to_close": 109.8,
+   "pct_at_above_ask": 43.8,
+   "largest": {
+    "price": 11800000.0,
+    "address": "15 Dogwood Road",
+    "month": "May 2023"
+   },
+   "display": {
+    "count": "128",
+    "volume": "$364.0M",
+    "median": "$2.22M",
+    "avg_list_to_sale": "100.6%",
+    "median_days_to_offer": "13 Days",
+    "pct_at_above_ask": "43.8%",
+    "median_list_to_close": "84 Days",
+    "largest": "$11.80M"
+   }
+  },
+  "2024": {
+   "label": "2024",
+   "note": "Full year 2024",
+   "count": 103,
+   "volume": 281755650.0,
+   "median": 2325000.0,
+   "avg_list_to_sale": 100.07,
+   "median_days_to_offer": 9,
+   "median_list_to_close": 70,
+   "mean_list_to_close": 115.8,
+   "pct_at_above_ask": 46.6,
+   "largest": {
+    "price": 10750000.0,
+    "address": "80 Orchard Ave",
+    "month": "Jul 2024"
+   },
+   "display": {
+    "count": "103",
+    "volume": "$281.8M",
+    "median": "$2.33M",
+    "avg_list_to_sale": "100.1%",
+    "median_days_to_offer": "9 Days",
+    "pct_at_above_ask": "46.6%",
+    "median_list_to_close": "70 Days",
+    "largest": "$10.75M"
+   },
+   "median_vs_prior": 4.6
+  },
+  "2025": {
+   "label": "2025",
+   "note": "Full year 2025",
+   "count": 124,
+   "volume": 361197113.0,
+   "median": 2600000.0,
+   "avg_list_to_sale": 96.46,
+   "median_days_to_offer": 26.0,
+   "median_list_to_close": 92.5,
+   "mean_list_to_close": 134.5,
+   "pct_at_above_ask": 30.6,
+   "largest": {
+    "price": 11000000.0,
+    "address": "21 Chestnut Street",
+    "month": "Dec 2025"
+   },
+   "display": {
+    "count": "124",
+    "volume": "$361.2M",
+    "median": "$2.60M",
+    "avg_list_to_sale": "96.5%",
+    "median_days_to_offer": "26 Days",
+    "pct_at_above_ask": "30.6%",
+    "median_list_to_close": "92 Days",
+    "largest": "$11.00M"
+   },
+   "median_vs_prior": 11.8
+  },
+  "2026": {
+   "label": "2026 YTD",
+   "note": "Jan \u2013 Sep 2026",
+   "count": 83,
+   "volume": 278638030.0,
+   "median": 2600000.0,
+   "avg_list_to_sale": 96.94,
+   "median_days_to_offer": 41,
+   "median_list_to_close": 107,
+   "mean_list_to_close": 119.8,
+   "pct_at_above_ask": 26.5,
+   "largest": {
+    "price": 25825000.0,
+    "address": "9 Atlas Lane",
+    "month": "May 2026"
+   },
+   "display": {
+    "count": "83",
+    "volume": "$278.6M",
+    "median": "$2.60M",
+    "avg_list_to_sale": "96.9%",
+    "median_days_to_offer": "41 Days",
+    "pct_at_above_ask": "26.5%",
+    "median_list_to_close": "107 Days",
+    "largest": "$25.82M"
+   },
+   "median_vs_prior": 0.0
+  }
+ },
+ "monthLabels": [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec"
+ ],
+ "monthly": {
+  "2023": {
+   "counts": [
+    12,
+    1,
+    9,
+    9,
+    14,
+    23,
+    15,
+    13,
+    8,
+    6,
+    11,
+    7
+   ],
+   "medians_k": [
+    2180,
+    1700,
+    1500,
+    2225,
+    2215,
+    2220,
+    2850,
+    2780,
+    1978,
+    2426,
+    2194,
+    2100
+   ],
+   "partial": false
+  },
+  "2024": {
+   "counts": [
+    4,
+    5,
+    11,
+    7,
+    9,
+    15,
+    15,
+    12,
+    8,
+    7,
+    5,
+    5
+   ],
+   "medians_k": [
+    3588,
+    2090,
+    2700,
+    2080,
+    2390,
+    2207,
+    2065,
+    2280,
+    2562,
+    2275,
+    2420,
+    2200
+   ],
+   "partial": false
+  },
+  "2025": {
+   "counts": [
+    11,
+    2,
+    2,
+    10,
+    11,
+    14,
+    22,
+    12,
+    4,
+    14,
+    12,
+    10
+   ],
+   "medians_k": [
+    3188,
+    1532,
+    2145,
+    3158,
+    2550,
+    3100,
+    2750,
+    2282,
+    2488,
+    2725,
+    1758,
+    2214
+   ],
+   "partial": false
+  },
+  "2026": {
+   "counts": [
+    7,
+    6,
+    8,
+    8,
+    13,
+    12,
+    11,
+    7,
+    11,
+    null,
+    null,
+    null
+   ],
+   "medians_k": [
+    1560,
+    2368,
+    2532,
+    3173,
+    2750,
+    2665,
+    2695,
+    2350,
+    1711,
+    null,
+    null,
+    null
+   ],
+   "partial": true
+  }
+ },
+ "bandLabels": [
+  "Under $2M",
+  "$2M\u20133M",
+  "$3M\u20134M",
+  "$4M\u20136M",
+  "$6M+"
+ ],
+ "bands": {
+  "2023": [
+   50,
+   41,
+   16,
+   13,
+   8
+  ],
+  "2024": [
+   36,
+   39,
+   13,
+   11,
+   4
+  ],
+  "2025": [
+   39,
+   43,
+   22,
+   13,
+   7
+  ],
+  "2026": [
+   25,
+   27,
+   13,
+   10,
+   8
+  ],
+  "all": [
+   150,
+   150,
+   64,
+   47,
+   27
+  ]
+ },
+ "bandNote": "Under $2M and $2M\u20133M are the market engine \u2014 150 sales each (34% apiece) of 438 total.",
+ "trend": {
+  "years": [
+   "2023",
+   "2024",
+   "2025",
+   "2026 YTD"
+  ],
+  "medians_k": [
+   2222,
+   2325,
+   2600,
+   2600
+  ],
+  "fixed_historical": [],
+  "base_year": 2023,
+  "end_year": 2025,
+  "cumulative_pct": 17.0,
+  "gain": 377500.0,
+  "cagr_pct": 8.2,
+  "consecutive_increases": 2,
+  "display": {
+   "cumulative": "+17.0%",
+   "gain": "+$378K",
+   "cagr": "+8.2%"
+  }
+ },
+ "top10": [
+  {
+   "address": "9 Atlas Lane",
+   "price": 25825000.0,
+   "closed": "May 2026",
+   "sqft": 17067,
+   "mls": "73400433"
+  },
+  {
+   "address": "15 Dogwood Road",
+   "price": 11800000.0,
+   "closed": "May 2023",
+   "sqft": 14212,
+   "mls": "73072004"
+  },
+  {
+   "address": "21 Chestnut Street",
+   "price": 11000000.0,
+   "closed": "Dec 2025",
+   "sqft": 12120,
+   "mls": "73356415"
+  },
+  {
+   "address": "80 Orchard Ave",
+   "price": 10750000.0,
+   "closed": "Jul 2024",
+   "sqft": 12183,
+   "mls": "73109146"
+  },
+  {
+   "address": "16 Dogwood Road",
+   "price": 9887500.0,
+   "closed": "Apr 2023",
+   "sqft": 9167,
+   "mls": "73074123"
+  },
+  {
+   "address": "3 Idlewile Lane",
+   "price": 9739680.0,
+   "closed": "May 2026",
+   "sqft": 14620,
+   "mls": "73506302"
+  },
+  {
+   "address": "8 Hidden Road",
+   "price": 9485500.0,
+   "closed": "Apr 2026",
+   "sqft": 10845,
+   "mls": "73467926"
+  },
+  {
+   "address": "76 Robin Rd",
+   "price": 9290000.0,
+   "closed": "Jul 2026",
+   "sqft": 8633,
+   "mls": "73483740"
+  },
+  {
+   "address": "56 Doublet Hill Rd",
+   "price": 9200000.0,
+   "closed": "Jul 2025",
+   "sqft": 7418,
+   "mls": "73353297"
+  },
+  {
+   "address": "29 Webster Road",
+   "price": 8800000.0,
+   "closed": "Jul 2023",
+   "sqft": 15344,
+   "mls": "73122482"
+  }
+ ],
+ "insights": [
+  {
+   "stat": "$2.60M",
+   "title": "Second Consecutive Year of Appreciation",
+   "body": "The 2025 median of $2,600,000 marks the second straight year of appreciation from the 2023 baseline of $2,222,500 \u2014 a 17.0% gain compounding at ~8.2% annually. 2026 year-to-date is running level, at $2,600,000."
+  },
+  {
+   "stat": "20 Days",
+   "title": "Buyers Are Getting More Time",
+   "body": "The median time from listing to accepted offer across all years is 20 days. The median stretched from 9 days in 2024 to 26 days in 2025, and 41 days so far in 2026. Well-priced homes still move, but list-to-sale slipped from 100.1% to 96.5% over the same period \u2014 buyers have more room to negotiate than they did a year earlier."
+  },
+  {
+   "stat": "124",
+   "title": "2025 Sales Rebounded 20% From 2024",
+   "body": "2025 closed 124 single-family sales and $361.2M in volume, up from 103 in 2024 and just shy of 2023's 128. So far in 2026 (through Sep 22) there have been 83 closings, versus 87 over the same stretch of 2025 (-5%)."
+  },
+  {
+   "stat": "$565/sf",
+   "title": "Price per Square Foot Is Climbing",
+   "body": "The median 2025 sale traded at $565 per square foot of total living area, up 3.3% from $547 in 2024. 2026 year-to-date: $573 per square foot. The most active size tier in 2025 was 6,500+ sq ft, with 30 sales at a $4,387,500 median."
+  },
+  {
+   "stat": "30.6%",
+   "title": "Nearly a Third of 2025 Homes Sold At or Above Ask",
+   "body": "30.6% of 2025 transactions closed at or above list price. In the $2M\u2013$3M band, the average list-to-sale ratio was 97.2% in 2025, versus 99.2% in 2024. So far in 2026: 26.5%."
+  },
+  {
+   "stat": "$25.82M",
+   "title": "Luxury Demand Is Accelerating",
+   "body": "The $6M+ segment recorded 7 closings in 2025 \u2014 up 75% from the 4 in 2024. 2026 has already produced 8 through September. The $25.82M sale at 9 Atlas Lane (May 2026) is the highest residential transaction in the dataset."
+  }
+ ],
+ "segment": {
+  "type": "sqft",
+  "labels": [
+   "Under 3,000 sf",
+   "3,000\u20134,000 sf",
+   "4,000\u20135,000 sf",
+   "5,000\u20136,500 sf",
+   "6,500+ sf"
+  ],
+  "counts": {
+   "2023": [
+    24,
+    35,
+    20,
+    22,
+    27
+   ],
+   "2024": [
+    16,
+    28,
+    23,
+    18,
+    18
+   ],
+   "2025": [
+    29,
+    20,
+    22,
+    23,
+    30
+   ],
+   "2026": [
+    15,
+    13,
+    19,
+    14,
+    21
+   ],
+   "all": [
+    84,
+    96,
+    84,
+    77,
+    96
+   ]
+  },
+  "medians": {
+   "2023": [
+    1302500.0,
+    1876000.0,
+    2227500.0,
+    3037500.0,
+    5000000.0
+   ],
+   "2024": [
+    1400000.0,
+    1870000.0,
+    2325000.0,
+    3136250.0,
+    4375000.0
+   ],
+   "2025": [
+    1500000.0,
+    1996250.0,
+    2600000.0,
+    2725000.0,
+    4387500.0
+   ],
+   "2026": [
+    1400000.0,
+    2000000.0,
+    2565000.0,
+    3087500.0,
+    5010000.0
+   ],
+   "all": [
+    1425000.0,
+    1935000.0,
+    2479500.0,
+    3075000.0,
+    4657500.0
+   ]
+  },
+  "median_ppsf": {
+   "2023": 551,
+   "2024": 547,
+   "2025": 565,
+   "2026": 573,
+   "all": 558
+  },
+  "sqft_known": 437,
+  "neighborhood_text_filled": 50,
+  "basis": "SQUARE_FEET (total living area incl. finished lower level)"
+ }
+}
