@@ -1,0 +1,657 @@
+{
+ "meta": {
+  "generated_at": "2026-09-26T19:30:44",
+  "source_file": "mlspin_export_2026-09-26.csv",
+  "asof": "2026-09-26",
+  "data_through": "2026-09-24",
+  "data_from": "2023-01-06",
+  "updated": "September 2026",
+  "range_label": "Jan 2023 \u2013 Sep 2026",
+  "period_long": "January 2023 through September 2026",
+  "years": [
+   "2023",
+   "2024",
+   "2025",
+   "2026"
+  ],
+  "year_labels": {
+   "2023": "2023",
+   "2024": "2024",
+   "2025": "2025",
+   "2026": "2026 YTD"
+  },
+  "full_years": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "current_year": "2026",
+  "chart_years": [
+   "2023",
+   "2024",
+   "2025",
+   "2026"
+  ],
+  "rows_used": 946,
+  "rows_dropped": {},
+  "columns_used": {
+   "mls": "LIST_NO",
+   "address": "ADDRESS",
+   "street_num": "STREET_NUM",
+   "street_name": "STREET_NAME",
+   "sale": "SALE_PRICE",
+   "list": "LIST_PRICE",
+   "orig": "ORIG_PRICE",
+   "list_date": "LIST_DATE",
+   "offer_date": "OFFER_DATE",
+   "settled": "SETTLED_DATE",
+   "sqft": "SQUARE_FEET",
+   "nbhd": "NEIGHBORHOOD",
+   "area": "AREA",
+   "prop_type": "PROP_TYPE",
+   "status": "STATUS",
+   "town": "TOWN"
+  },
+  "neighborhood_mapped": 321,
+  "neighborhood_method": "MLS NEIGHBORHOOD text (+AREA fallback)",
+  "methodology": {
+   "year_basis": "SETTLED_DATE",
+   "list_to_sale": "mean(SALE_PRICE/LIST_PRICE), ratios outside 0.70-1.30 excluded",
+   "at_above_ask": "SALE_PRICE >= LIST_PRICE",
+   "days_to_offer": "median(OFFER_DATE - LIST_DATE)",
+   "list_to_close": "median(SETTLED_DATE - LIST_DATE)",
+   "trend_2018_2022": "fixed historical values"
+  }
+ },
+ "headline": {
+  "closed_sales": 946,
+  "total_volume": 2280042294.27,
+  "overall_median": 2150000.0,
+  "median_change_pct": 15.4,
+  "median_change_years": [
+   2025,
+   2023
+  ],
+  "median_days_to_offer": 7.0,
+  "avg_list_to_sale": 100.88,
+  "display": {
+   "closed_sales": "946",
+   "total_volume": "$2.28B",
+   "overall_median": "$2.15M",
+   "median_change": "+15.4% vs. 2023",
+   "median_change_note": "2025 median vs. 2023",
+   "median_days_to_offer": "7 Days",
+   "avg_list_to_sale": "100.9%",
+   "list_to_sale_note": "Avg seller beat asking"
+  }
+ },
+ "hero": {
+  "description": "946 closed single-family transactions, January 2023 through September 2026. Every sale, every neighborhood, every price band \u2014 MLS settled data.",
+  "meta_description": "946 closed sales, $2.28B volume, $2.15M median price. Wellesley MA real estate data hub updated September 2026. By Adler Connolly\u00b2, MGS Group Real Estate."
+ },
+ "byYr": {
+  "all": {
+   "label": "All Years",
+   "note": "Jan 2023 \u2013 Sep 2026",
+   "count": 946,
+   "volume": 2280042294.27,
+   "median": 2150000.0,
+   "avg_list_to_sale": 100.88,
+   "median_days_to_offer": 7.0,
+   "median_list_to_close": 67.0,
+   "mean_list_to_close": 83.2,
+   "pct_at_above_ask": 54.2,
+   "largest": {
+    "price": 14750000.0,
+    "address": "184 Cliff Road",
+    "month": "Sep 2025"
+   },
+   "display": {
+    "count": "946",
+    "volume": "$2.28B",
+    "median": "$2.15M",
+    "avg_list_to_sale": "100.9%",
+    "median_days_to_offer": "7 Days",
+    "pct_at_above_ask": "54.2%",
+    "median_list_to_close": "67 Days",
+    "largest": "$14.75M"
+   }
+  },
+  "2023": {
+   "label": "2023",
+   "note": "Full year 2023",
+   "count": 226,
+   "volume": 507089175.0,
+   "median": 1915000.0,
+   "avg_list_to_sale": 101.58,
+   "median_days_to_offer": 6.0,
+   "median_list_to_close": 69.0,
+   "mean_list_to_close": 87.2,
+   "pct_at_above_ask": 59.3,
+   "largest": {
+    "price": 10500000.0,
+    "address": "15 Valley Road",
+    "month": "May 2023"
+   },
+   "display": {
+    "count": "226",
+    "volume": "$507.1M",
+    "median": "$1.92M",
+    "avg_list_to_sale": "101.6%",
+    "median_days_to_offer": "6 Days",
+    "pct_at_above_ask": "59.3%",
+    "median_list_to_close": "69 Days",
+    "largest": "$10.50M"
+   }
+  },
+  "2024": {
+   "label": "2024",
+   "note": "Full year 2024",
+   "count": 255,
+   "volume": 586975282.0,
+   "median": 2127000.0,
+   "avg_list_to_sale": 101.91,
+   "median_days_to_offer": 6,
+   "median_list_to_close": 65,
+   "mean_list_to_close": 84.0,
+   "pct_at_above_ask": 58.4,
+   "largest": {
+    "price": 6300000.0,
+    "address": "15 Croton Street",
+    "month": "May 2024"
+   },
+   "display": {
+    "count": "255",
+    "volume": "$587.0M",
+    "median": "$2.13M",
+    "avg_list_to_sale": "101.9%",
+    "median_days_to_offer": "6 Days",
+    "pct_at_above_ask": "58.4%",
+    "median_list_to_close": "65 Days",
+    "largest": "$6.30M"
+   },
+   "median_vs_prior": 11.1
+  },
+  "2025": {
+   "label": "2025",
+   "note": "Full year 2025",
+   "count": 272,
+   "volume": 672342237.27,
+   "median": 2210651.25,
+   "avg_list_to_sale": 99.91,
+   "median_days_to_offer": 8.0,
+   "median_list_to_close": 65.0,
+   "mean_list_to_close": 79.4,
+   "pct_at_above_ask": 48.5,
+   "largest": {
+    "price": 14750000.0,
+    "address": "184 Cliff Road",
+    "month": "Sep 2025"
+   },
+   "display": {
+    "count": "272",
+    "volume": "$672.3M",
+    "median": "$2.21M",
+    "avg_list_to_sale": "99.9%",
+    "median_days_to_offer": "8 Days",
+    "pct_at_above_ask": "48.5%",
+    "median_list_to_close": "65 Days",
+    "largest": "$14.75M"
+   },
+   "median_vs_prior": 3.9
+  },
+  "2026": {
+   "label": "2026 YTD",
+   "note": "Jan \u2013 Sep 2026",
+   "count": 193,
+   "volume": 513635600.0,
+   "median": 2400000.0,
+   "avg_list_to_sale": 100.07,
+   "median_days_to_offer": 6,
+   "median_list_to_close": 71,
+   "mean_list_to_close": 82.8,
+   "pct_at_above_ask": 50.8,
+   "largest": {
+    "price": 9275000.0,
+    "address": "52 Valley Road",
+    "month": "Jul 2026"
+   },
+   "display": {
+    "count": "193",
+    "volume": "$513.6M",
+    "median": "$2.40M",
+    "avg_list_to_sale": "100.1%",
+    "median_days_to_offer": "6 Days",
+    "pct_at_above_ask": "50.8%",
+    "median_list_to_close": "71 Days",
+    "largest": "$9.28M"
+   },
+   "median_vs_prior": 8.6
+  }
+ },
+ "monthLabels": [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec"
+ ],
+ "monthly": {
+  "2023": {
+   "counts": [
+    14,
+    10,
+    15,
+    17,
+    26,
+    35,
+    27,
+    25,
+    11,
+    18,
+    13,
+    15
+   ],
+   "medians_k": [
+    1908,
+    1820,
+    1729,
+    2200,
+    2112,
+    1850,
+    1990,
+    2300,
+    1946,
+    1400,
+    1950,
+    2095
+   ],
+   "partial": false
+  },
+  "2024": {
+   "counts": [
+    13,
+    8,
+    17,
+    23,
+    22,
+    38,
+    26,
+    40,
+    13,
+    23,
+    15,
+    17
+   ],
+   "medians_k": [
+    2165,
+    2385,
+    1995,
+    2100,
+    2390,
+    2375,
+    1992,
+    2078,
+    1775,
+    1750,
+    2188,
+    2350
+   ],
+   "partial": false
+  },
+  "2025": {
+   "counts": [
+    19,
+    8,
+    13,
+    21,
+    35,
+    36,
+    38,
+    34,
+    9,
+    20,
+    18,
+    21
+   ],
+   "medians_k": [
+    2350,
+    2288,
+    1850,
+    2000,
+    2364,
+    2193,
+    2184,
+    2450,
+    2050,
+    2548,
+    1805,
+    2250
+   ],
+   "partial": false
+  },
+  "2026": {
+   "counts": [
+    12,
+    4,
+    9,
+    26,
+    22,
+    41,
+    31,
+    36,
+    12,
+    null,
+    null,
+    null
+   ],
+   "medians_k": [
+    1970,
+    1478,
+    1865,
+    2162,
+    2730,
+    2450,
+    2772,
+    2275,
+    2558,
+    null,
+    null,
+    null
+   ],
+   "partial": true
+  }
+ },
+ "bandLabels": [
+  "Under $1.5M",
+  "$1.5M\u20132.5M",
+  "$2.5M\u20133.5M",
+  "$3.5M\u20135M",
+  "$5M+"
+ ],
+ "bands": {
+  "2023": [
+   65,
+   95,
+   37,
+   20,
+   9
+  ],
+  "2024": [
+   59,
+   114,
+   57,
+   17,
+   8
+  ],
+  "2025": [
+   62,
+   108,
+   61,
+   26,
+   15
+  ],
+  "2026": [
+   34,
+   70,
+   51,
+   20,
+   18
+  ],
+  "all": [
+   220,
+   387,
+   206,
+   83,
+   50
+  ]
+ },
+ "bandNote": "$1.5M\u20132.5M is the market engine \u2014 387 of 946 total sales (41%).",
+ "neighborhoodNames": [
+  "Dana Hall",
+  "Hardy",
+  "Wellesley Farms",
+  "Cliff Estates",
+  "Country Club",
+  "Hills+Bates",
+  "Poets"
+ ],
+ "neighborhoods": {
+  "2023": [
+   17,
+   0,
+   11,
+   19,
+   4,
+   13,
+   3
+  ],
+  "2024": [
+   13,
+   0,
+   19,
+   20,
+   8,
+   16,
+   7
+  ],
+  "2025": [
+   27,
+   2,
+   19,
+   17,
+   12,
+   25,
+   4
+  ],
+  "2026": [
+   10,
+   2,
+   15,
+   14,
+   5,
+   13,
+   6
+  ],
+  "all": [
+   67,
+   4,
+   64,
+   70,
+   29,
+   67,
+   20
+  ]
+ },
+ "neighborhoodMedians": {
+  "2023": [
+   1875000.0,
+   null,
+   2450000.0,
+   3100000.0,
+   3152500.0,
+   1946000.0,
+   2200000.0
+  ],
+  "2024": [
+   2420000.0,
+   null,
+   2800000.0,
+   3125000.0,
+   2437500.0,
+   1767500.0,
+   2350000.0
+  ],
+  "2025": [
+   2800000.0,
+   1732500.0,
+   3475000.0,
+   3400000.0,
+   2662500.0,
+   2250000.0,
+   2447500.0
+  ],
+  "2026": [
+   3305000.0,
+   2340000.0,
+   3650000.0,
+   3977500.0,
+   3122500.0,
+   2350000.0,
+   2600000.0
+  ]
+ },
+ "trend": {
+  "years": [
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025",
+   "2026 YTD"
+  ],
+  "medians_k": [
+   1437,
+   1450,
+   1610,
+   1653,
+   1887,
+   1915,
+   2127,
+   2211,
+   2400
+  ],
+  "fixed_historical": [
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022"
+  ],
+  "base_year": 2018,
+  "end_year": 2025,
+  "cumulative_pct": 53.8,
+  "gain": 773651.25,
+  "cagr_pct": 6.3,
+  "consecutive_increases": 7,
+  "display": {
+   "cumulative": "+53.8%",
+   "gain": "+$774K",
+   "cagr": "+6.3%"
+  }
+ },
+ "top10": [
+  {
+   "address": "184 Cliff Road",
+   "price": 14750000.0,
+   "closed": "Sep 2025",
+   "sqft": 14663,
+   "mls": "73353510"
+  },
+  {
+   "address": "15 Valley Road",
+   "price": 10500000.0,
+   "closed": "May 2023",
+   "sqft": 13501,
+   "mls": "73077635"
+  },
+  {
+   "address": "52 Valley Road",
+   "price": 9275000.0,
+   "closed": "Jul 2026",
+   "sqft": 11124,
+   "mls": "73404806"
+  },
+  {
+   "address": "42 Cranmore Road",
+   "price": 7800000.0,
+   "closed": "Jan 2025",
+   "sqft": 8200,
+   "mls": "73285093"
+  },
+  {
+   "address": "121 Livingston Road",
+   "price": 6900000.0,
+   "closed": "Jan 2025",
+   "sqft": 10090,
+   "mls": "73295182"
+  },
+  {
+   "address": "121 Livingston Rd",
+   "price": 6660000.0,
+   "closed": "May 2026",
+   "sqft": 10090,
+   "mls": "73469885"
+  },
+  {
+   "address": "55 Old Farm Road",
+   "price": 6390000.0,
+   "closed": "May 2025",
+   "sqft": 8211,
+   "mls": "73332851"
+  },
+  {
+   "address": "222 Grove Street",
+   "price": 6300000.0,
+   "closed": "Sep 2026",
+   "sqft": 8093,
+   "mls": "73537708"
+  },
+  {
+   "address": "15 Croton Street",
+   "price": 6300000.0,
+   "closed": "May 2024",
+   "sqft": 8725,
+   "mls": "73221156"
+  },
+  {
+   "address": "9 Bellevue Road",
+   "price": 6200000.0,
+   "closed": "Aug 2025",
+   "sqft": 7569,
+   "mls": "73365607"
+  }
+ ],
+ "insights": [
+  {
+   "stat": "$2.21M",
+   "title": "Seventh Consecutive Year of Appreciation",
+   "body": "The 2025 median of $2,210,651 marks the seventh straight year of appreciation from the 2018 baseline of $1,437,000 \u2014 a 53.8% gain compounding at ~6.3% annually. 2026 year-to-date is running at $2,400,000 (+8.6%). Structural scarcity has kept values resilient through every rate environment."
+  },
+  {
+   "stat": "7 Days",
+   "title": "Spring Compression Is Real",
+   "body": "The median time from listing to accepted offer across all years is 7 days. For homes that went under agreement in Q2 2026, that compressed to 6 days. Buyers who hesitate on well-priced homes in spring routinely lose \u2014 the data makes that unambiguous."
+  },
+  {
+   "stat": "272",
+   "title": "2025 Was the Busiest Year in the Dataset",
+   "body": "2025 produced more closed transactions than 2024 (255) or 2023 (226), with $672.3M in total volume. So far in 2026 (through Sep 24) there have been 193 closings, versus 210 over the same stretch of 2025 (-8%)."
+  },
+  {
+   "stat": "+27.3%",
+   "title": "Hills+Bates Led Neighborhood Appreciation",
+   "body": "Hills+Bates posted the strongest year-over-year median gain of any mapped neighborhood in 2025, with 25 transactions at a $2,250,000 median. (Neighborhoods with at least 8 sales in both 2024 and 2025; based on the neighborhood noted in MLS.)"
+  },
+  {
+   "stat": "48.5%",
+   "title": "Nearly Half of 2025 Homes Sold At or Above Ask",
+   "body": "48.5% of 2025 transactions closed at or above list price. In the $1.5M\u2013$2.5M band, the average list-to-sale ratio exceeded 100% for the third consecutive year (100.9% in 2025) \u2014 a structural condition, not a cyclical one. So far in 2026: 50.8%."
+  },
+  {
+   "stat": "$14.75M",
+   "title": "Luxury Demand Is Accelerating",
+   "body": "The $5M+ segment recorded 15 closings in 2025 \u2014 up 88% from the 8 in 2024. 2026 has already produced 18 through September. The $14.75M sale at 184 Cliff Road (Sep 2025) is the highest residential transaction in the dataset."
+  }
+ ]
+}
